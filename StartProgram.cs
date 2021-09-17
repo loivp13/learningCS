@@ -10,12 +10,8 @@ namespace LearningVisualStudioC
     {
         static void Main(string[] args)
         {
-            Box box = new Box();
-            //box.length = 3;
-            box.SetLength(4);
-            //box.height = 4;
-            box.width = 5;
-            box.DisplayInfo();
+            Member num1 = new Member();
+            num1.Introducing(true);
         }
     }
 }

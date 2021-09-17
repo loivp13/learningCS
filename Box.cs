@@ -11,8 +11,10 @@ namespace LearningVisualStudioC
         //member variable
         private int length;
         private int height;
-        public int width;
+        //public int width;
         public int volume;
+
+        public int Width { get; set; }
 
         public int Height
         {
@@ -20,12 +22,16 @@ namespace LearningVisualStudioC
                 return height;
             }
             set{
+                if (value< 0)
+                {
+                    height = value;
+                }
                 height = value;
             }
         }
         public void DisplayInfo()
         {
-            Console.WriteLine("Length is {0} and height is {1} and width is {2} so the volume is {3}.", length, height,width, volume=length*height*width);
+            Console.WriteLine("Length is {0} and height is {1} and width is {2} so the volume is {3}.", length, height,Width, volume=length*height*Width);
         }
         public void SetLength(int length)
         {
