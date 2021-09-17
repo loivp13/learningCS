@@ -10,16 +10,12 @@ namespace LearningVisualStudioC
     {
         static void Main(string[] args)
         {
-            //Create an object of my class
-            // and instance of Human
-            //public allows to use other variable outisde of class
-            Human Bro = new Human("Little", "Bro");
-            Human Sis = new Human("Little", "Sis");
-            Bro.IntroduceMyself();
-            Sis.IntroduceMyself();
-
-
-            Console.Read();
+            Box box = new Box();
+            //box.length = 3;
+            box.SetLength(4);
+            box.height = 4;
+            box.width = 5;
+            box.DisplayInfo();
         }
     }
 }
