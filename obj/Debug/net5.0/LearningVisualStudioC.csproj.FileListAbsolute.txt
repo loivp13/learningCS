@@ -1,0 +1,16 @@
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.exe
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.deps.json
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.runtimeconfig.json
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.runtimeconfig.dev.json
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.dll
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\ref\LearningVisualStudioC.dll
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\bin\Debug\net5.0\LearningVisualStudioC.pdb
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.csproj.AssemblyReference.cache
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.AssemblyInfoInputs.cache
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.AssemblyInfo.cs
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.csproj.CoreCompileInputs.cache
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.dll
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\ref\LearningVisualStudioC.dll
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.pdb
+D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\obj\Debug\net5.0\LearningVisualStudioC.genruntimeconfig.cache
