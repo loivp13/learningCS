@@ -10,12 +10,7 @@ namespace LearningVisualStudioC
                 {'4', '5', '6' },
                 {'7', '8', '9' }
         };
-        private static char[,] initialField =
-        {
-                {'1', '2', '3' },
-                {'4', '5', '6' },
-                {'7', '8', '9' }
-        };
+        
 
         int turns = 0;
         int player = 2;
@@ -159,6 +154,12 @@ namespace LearningVisualStudioC
         }
         public void RestartGamePrompt(bool isDraw)
         {
+            char[,] initialField =
+                    {
+                            {'1', '2', '3' },
+                            {'4', '5', '6' },
+                            {'7', '8', '9' }
+                    };
             do
             {
                 if (isDraw)
@@ -171,6 +172,7 @@ namespace LearningVisualStudioC
                 try
                 {
                     string playAgain = Console.ReadLine();
+                    
                     if (playAgain == "Y")
                     {
                         turns = 0;

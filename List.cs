@@ -6,14 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningVisualStudioC
 {
-    class StartProgram
+    class List
     {
-        static void Main(string[] args)
-        {
-            ArrayListTest.ArrayListTest1();
-            
-
-        }
     }
 }
- 
