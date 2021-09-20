@@ -10,8 +10,10 @@ namespace LearningVisualStudioC
     {
         static void Main(string[] args)
         {
-            Member num1 = new Member();
-            num1.Introducing(true);
+            TicTacToe game = new TicTacToe();
+            game.startGame();
+
         }
     }
 }
+ 
