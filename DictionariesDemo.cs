@@ -9,7 +9,7 @@ namespace LearningVisualStudioC
 {
     class DictionariesDemo
     {
-        static void Main(string[] args)
+        static void MainDictionary(string[] args)
         {
             Employee[] employees =
             {
@@ -55,6 +55,24 @@ namespace LearningVisualStudioC
                 KeyValuePair<string, Employee> keyValuePair = employeesDirectory.ElementAt(i);
                 Console.WriteLine("Key: {0}", keyValuePair.Key);
                 Employee employeeValue = keyValuePair.Value; 
+            }
+
+
+            //UPDATE DICTIONARIES
+            string KeyToUpdate = "HR";
+            if (employeesDirectory.ContainsKey(KeyToUpdate))
+            {
+                employeesDirectory[KeyToUpdate] = new Employee("HR", "Eleka", 26, 18);
+            }
+
+            //REMOVE FROM DICTIONARIES
+            string KeyToRemove = "Intern";
+            if (employeesDirectory.Remove(KeyToRemove))
+            {
+                //removed
+            }else
+            {
+                //not found
             }
 
         }
