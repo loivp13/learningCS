@@ -10,7 +10,7 @@ namespace LearningVisualStudioC
 {
     class StartProgram
     {
-        static void Main(string[] args)
+        static void Main12(string[] args)
         {
             Hashtable studentsTable = new Hashtable();
 
