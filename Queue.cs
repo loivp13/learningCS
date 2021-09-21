@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace LearningVisualStudioC
 {
-    class Queue
+    internal class Queue
     {
+        private static void Main(string[] args)
+        {
+            Queue<int> queue = new Queue<int>;
+            queue.Enqueue(1);
+            queue.Enqueue(2); // [1,2]
+            //CHECK IF CONTAINS OR WILL CRASH
+            if (queue.Count > 0)
+            {
+                queue.Dequeue(); //[2]
+            }
+        }
     }
 }
