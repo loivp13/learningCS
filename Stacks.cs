@@ -6,7 +6,7 @@ namespace LearningVisualStudioC
     {
         private static void MainStacks(string[] args)
         {
-            Stack<int> stack = new Stack<int>;
+            Stack<int> stack = new Stack<int>();
             //  ADD TO STACK
             stack.Push(1);
             //  LOOK AT STACK;

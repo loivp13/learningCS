@@ -8,7 +8,7 @@ namespace LearningVisualStudioC
 {
     class Debug
     {
-        static void Main(string[] args)
+        static void MainDebug(string[] args)
         {
 
         }

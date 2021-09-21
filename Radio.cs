@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LearningVisualStudioC
 {
-    class Radio
+    //CHILD
+    class Radio : ElectricalDevice
     {
+        //INHERIANCE 
+        public Radio(bool isOn, string brand) : base(isOn, brand)
+        {
+        }
     }
 }

@@ -4,9 +4,9 @@ namespace LearningVisualStudioC
 {
     internal class Queue
     {
-        private static void Main(string[] args)
+        private static void MainQueue(string[] args)
         {
-            Queue<int> queue = new Queue<int>;
+            Queue<int> queue = new Queue<int>();
             queue.Enqueue(1);
             queue.Enqueue(2); // [1,2]
             //CHECK IF CONTAINS OR WILL CRASH

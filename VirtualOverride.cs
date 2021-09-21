@@ -8,5 +8,13 @@ namespace LearningVisualStudioC
 {
     class VirtualOverride
     {
+        //methods to be override
+        public virtual void virtualMethod()
+        {
+
+            throw new NotImplementedException();
+        }
+        
+      
     }
 }
