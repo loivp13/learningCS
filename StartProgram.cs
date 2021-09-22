@@ -12,9 +12,17 @@ namespace LearningVisualStudioC
     {
         static void Main(string[] args)
         {
-            Ticket t1 = new Ticket(10);
-            Ticket t2 = new Ticket(10);
-            Console.WriteLine(t2.Equals(t1)n );
+            DogShelter shelter = new DogShelter();
+            foreach (Dog dog in shelter)
+            {
+                if (!dog.IsBadDog)
+                {
+                    dog.GiveTreat(2);
+                }else
+                {
+                    dog.GiveTreat(1);
+                }
+            }
         }
 
         
