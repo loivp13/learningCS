@@ -12,7 +12,12 @@ namespace LearningVisualStudioC
     {
         static void Main(string[] args)
         {
-           
+
+            ReadText.ReadATextFile();
+            ReadText.ReadAllLines();
+            ReadText.WriteFile();
+            ReadText.StreamWriting();
+            ReadText.AddStreamWriter();
         }
 
         

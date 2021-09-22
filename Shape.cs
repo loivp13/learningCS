@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningVisualStudioC
 {
-    //cannot be instantiated
+    //cannot be instantiate memed
     abstract class Shape
     {
         public string Name { get; set; }
