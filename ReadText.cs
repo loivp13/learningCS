@@ -26,7 +26,7 @@ namespace LearningVisualStudioC
         {
             string[] lines = { "first line", "second line", "third line" };
             File.WriteAllLines(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\written.txt", lines);
-        }
+        
 
         public static void StreamWriting()
         {

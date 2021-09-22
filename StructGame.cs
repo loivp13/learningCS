@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace LearningVisualStudioC
 {
-    struct StructGame
-    {
-        //similar to class
         //CAN USE INTERFACE
-        //NO CONSTRUCTOR
+    struct StructGame : ICloneable
+    {
+        // CAN ONLY HAVE CONSTRUCTOR TO DEFINE FIELDS
+        public StructGame(string name, string developer, string rating, string releaseDate)
+        {
+            this.name = name;
+            this.developer = developer;
+            this.rating = rating;
+            this.releaseDate = releaseDate;
+        }
         //NO INHERITENCE
 
+        //similar to class
         public string name;
         public string developer;
         public string rating;
         public string releaseDate;
+
+        
 
         //methods
         public void Display()
@@ -24,6 +33,9 @@ namespace LearningVisualStudioC
             //runs code
         }
 
-
+        public object Clone()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
