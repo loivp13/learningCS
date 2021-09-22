@@ -55,12 +55,19 @@ namespace LearningVisualStudioC
                 new Dog("Pixel",false),
             };
         }
-
+        /// <summary>
+        /// WHEN TO USE IENUMERABLE INTERFACE
+        /// your collection represents a massive database table;
+        /// you don't want to copy the entire thing into memory and cause performace issues in app;
+        /// dont use when you need results right away and possibly mutating/editing the objects. 
+        /// better to use array or a list;
+        /// </summary>
+        /// <returns></returns>
         IEnumerator<Dog> IEnumerable<Dog>.GetEnumerator()
         {
             return dogs.GetEnumerator();
         }
-
+        //For nongeneric. must have
         IEnumerator IEnumerable.GetEnumerator()
         {
             throw new NotImplementedException();
