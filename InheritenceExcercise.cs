@@ -17,6 +17,20 @@ namespace LearningVisualStudioC
         public string Model { get; set; }
 
 
+        //has a relationship
+        protected CarIdInfo carIdInfo = new CarIdInfo();
+
+        public void SetCarIDinfo(int idNum, string owner)
+        {
+            carIdInfo.IDNum = idNum;
+            carIdInfo.Owner = owner;
+        }
+
+        public void GetCarIDinfo()
+        {
+            Console.WriteLine($"The car has the Id {carIdInfo.IDNum} and {carIdInfo.Owner} ");
+        }
+
         public Cars(int hp, string color, string model)
         {
             HP = hp;
@@ -28,7 +42,7 @@ namespace LearningVisualStudioC
 
             Console.WriteLine($"{Model} has{HP} horsepower, {Color} color");
         }
-        public  void Repair()
+        public virtual void Repair()
         {
             Console.WriteLine($"{Model} was repaired");
         }
@@ -71,5 +85,12 @@ namespace LearningVisualStudioC
         {
             Console.WriteLine($"{Brand} {Model} has been repaired");
         }
+    }
+    class CarIdInfo
+    {
+        public int IDNum { get; set; } = 0;
+        public string Owner { get; set; } = "has no owner";
+
+
     }
 }
