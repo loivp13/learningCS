@@ -26,29 +26,30 @@ namespace LearningVisualStudioC
         {
             string[] lines = { "first line", "second line", "third line" };
             File.WriteAllLines(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\written.txt", lines);
-        
 
-        public static void StreamWriting()
-        {
-            string[] lines = { "first 1", "second 2", "third 3" };
 
-            using (StreamWriter file = new StreamWriter(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\StreamWriter.txt"))
+            static void StreamWriting()
             {
-                foreach (string line in lines)
+                string[] lines = { "first 1", "second 2", "third 3" };
+
+                using (StreamWriter file = new StreamWriter(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\StreamWriter.txt"))
                 {
-                    if (line.Contains("third"))
+                    foreach (string line in lines)
                     {
-                        file.WriteLine(line);
+                        if (line.Contains("third"))
+                        {
+                            file.WriteLine(line);
+                        }
                     }
                 }
             }
-        }
 
-        public static void AddStreamWriter()
-        {
-            using (StreamWriter file = new StreamWriter(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\StreamWriter.txt", true))
+            static void AddStreamWriter()
             {
-                file.WriteLine("append me");
+                using (StreamWriter file = new StreamWriter(@"D:\Web Developement\Visual Studio\C#\LearningVisualStudioC\LearningVisualStudioC\StreamWriter.txt", true))
+                {
+                    file.WriteLine("append me");
+                }
             }
         }
     }

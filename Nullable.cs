@@ -8,5 +8,10 @@ namespace LearningVisualStudioC
 {
     class Nullable
     {
+        int? num1 = null;
+        int? num2 = 1337;
+
+        //NULL coalescing operator
+        
     }
 }

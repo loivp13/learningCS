@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "LearningVisualStudioC": {
+      "commandName": "Project",
+      "commandLineArgs": "LVP",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}
